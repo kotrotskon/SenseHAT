@@ -19,4 +19,5 @@ while True:
     message = "Temperature: " + str(t) + " Pressure: " + str(p) + " Humidity: " + str(h)
 
     # Display the scrolling message
+    print(message)
     sense.show_message(message, scroll_speed=0.05)
