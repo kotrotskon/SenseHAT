@@ -21,3 +21,5 @@ while True:
     # Display the scrolling message
     print(message)
     sense.show_message(message, scroll_speed=0.05)
+
+
